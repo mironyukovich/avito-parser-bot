@@ -23,7 +23,7 @@ if (missingVars.length > 0) {
 const auth = new AvitoAuth(
   getConfigValue('AVITO_CLIENT_ID'),
   getConfigValue('AVITO_CLIENT_SECRET'),
-  getConfigValue('AVITO_REDIRECT_URI') || 'https://avito-parser-bot.mironyukovich.repl.co/auth'
+  getConfigValue('AVITO_REDIRECT_URI') || 'https://3000-mironyukovich-avito-parser-bot.replit.dev/auth'
 );
 
 module.exports = {
